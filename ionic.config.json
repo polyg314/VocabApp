@@ -1,0 +1,7 @@
+{
+  "name": "VocabApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
