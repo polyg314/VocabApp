@@ -8,6 +8,6 @@
     </ion-toolbar>
   </ion-header>
   <ion-content>
-    <ion-searchbar animated></ion-searchbar>
+    <ion-searchbar [(ngModel)]="searchQuery" (change)="search($event)" autocorrect="off" animated></ion-searchbar>
   </ion-content>
 </div>
